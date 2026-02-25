@@ -37,7 +37,7 @@ public class PauseMenuWithIntro : MonoBehaviour
     {
         if (mobilePauseButton != null)
         {
-            mobilePauseButton.SetActive(Application.isMobilePlatform);
+            mobilePauseButton.SetActive(true);
         }
     }
 
